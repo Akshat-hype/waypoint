@@ -1,40 +1,86 @@
-## docs/prd/feature_requirements.html
+# Feature Requirements
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Feature Requirements</title>
-</head>
-<body>
+# Authentication
 
-<h1>Feature Requirements</h1>
-
-<h2>Authentication</h2>
-<ul>
-  <li>User Signup</li>
-  <li>User Login</li>
-  <li>JWT Authentication</li>
-</ul>
-
-<h2>Trips</h2>
-<ul>
-  <li>Create Trip</li>
-  <li>Edit Trip</li>
-  <li>Delete Trip</li>
-</ul>
-
-<h2>Expenses</h2>
-<ul>
-  <li>Add Expense</li>
-  <li>Expense Analytics</li>
-  <li>Budget Tracking</li>
-</ul>
-
-</body>
-</html>
-```
+## Features
+- User Signup
+- User Login
+- JWT Authentication
+- Session Persistence
+- Logout
 
 ---
 
+# Trip Management
+
+## Features
+- Create Trip
+- Edit Trip
+- Delete Trip
+- Archive Trips
+
+## Fields
+- Title
+- Destination
+- Budget
+- Travel Mode
+- Dates
+- Travelers
+
+---
+
+# Expense Tracking
+
+## Features
+- Add Expense
+- Edit Expense
+- Delete Expense
+- Expense Categories
+- Budget Analytics
+
+## Categories
+- Food
+- Hotel
+- Fuel
+- Shopping
+- Emergency
+
+---
+
+# Itinerary
+
+## Features
+- Day-wise Planning
+- Activity Timeline
+- Location Tracking
+- Time Scheduling
+
+---
+
+# Gallery
+
+## Features
+- Upload Photos
+- Upload Videos
+- Add Captions
+- Organize Memories
+
+---
+
+# Notes
+
+## Features
+- Journal Entries
+- Packing Checklist
+- Emergency Contacts
+- Quick Notes
+
+---
+
+# Analytics
+
+## Features
+- Expense Charts
+- Total Trips
+- Budget Insights
+- Solo vs Group Analytics

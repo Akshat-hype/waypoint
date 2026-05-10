@@ -1,38 +1,41 @@
-## docs/prd/success_metrics.html
+# Success Metrics
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Success Metrics</title>
-</head>
-<body>
+# Product Metrics
 
-<h1>Success Metrics</h1>
+| Metric | Goal |
+|---|---|
+| Trips Created | High Engagement |
+| Daily Active Users | Growing Usage |
+| Expense Entries | Frequent Tracking |
+| Media Uploads | Memory Usage |
 
-<table border="1" cellpadding="10">
-  <tr>
-    <th>Metric</th>
-    <th>Target</th>
-  </tr>
+---
 
-  <tr>
-    <td>Crash Free Sessions</td>
-    <td>> 98%</td>
-  </tr>
+# Technical Metrics
 
-  <tr>
-    <td>App Startup Time</td>
-    <td>< 3 seconds</td>
-  </tr>
+| Metric | Target |
+|---|---|
+| Crash Free Sessions | > 98% |
+| API Response Time | < 300ms |
+| Sync Success Rate | > 95% |
+| App Startup Time | < 3 sec |
 
-  <tr>
-    <td>Sync Success Rate</td>
-    <td>> 95%</td>
-  </tr>
-</table>
+---
 
-</body>
-</html>
-```
+# UX Metrics
+
+| Metric | Goal |
+|---|---|
+| Smooth Navigation | High |
+| Offline Reliability | Excellent |
+| Minimal UI Satisfaction | High |
+
+---
+
+# Growth Metrics
+
+| Metric | Goal |
+|---|---|
+| User Retention | Increasing |
+| App Store Rating | 4.5+ |
+| Feature Usage | High Adoption |

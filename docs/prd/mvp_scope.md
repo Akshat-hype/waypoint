@@ -1,35 +1,67 @@
-## docs/prd/mvp_scope.html
+# MVP Scope
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>MVP Scope</title>
-</head>
-<body>
+# Included Features
 
-<h1>MVP Scope</h1>
-
-<h2>Included</h2>
-<ul>
-  <li>Authentication</li>
-  <li>Trip CRUD</li>
-  <li>Expense Tracking</li>
-  <li>Itinerary</li>
-  <li>Offline Support</li>
-</ul>
-
-<h2>Excluded</h2>
-<ul>
-  <li>AI Features</li>
-  <li>Real-time Collaboration</li>
-  <li>Public Social Feed</li>
-</ul>
-
-</body>
-</html>
-```
+## Authentication
+- Signup
+- Login
+- JWT Authentication
 
 ---
 
+## Trip Management
+- Create Trip
+- Edit Trip
+- Delete Trip
+
+---
+
+## Expense Tracking
+- Add Expense
+- Budget Tracking
+- Expense Analytics
+
+---
+
+## Itinerary
+- Add Activities
+- Day-wise Timeline
+
+---
+
+## Notes
+- Journal Entries
+- Packing Checklist
+
+---
+
+## Gallery
+- Upload Photos
+- View Memories
+
+---
+
+## Offline Support
+- Isar Database
+- Local Caching
+- Background Sync
+
+---
+
+# Excluded Features
+
+- AI Features
+- Public Profiles
+- Shared Trips
+- Real-time Collaboration
+- OCR Scanner
+- Voice Notes
+
+---
+
+# MVP Goals
+
+- Stable architecture
+- Functional offline sync
+- Fast user experience
+- Minimal clean UI
