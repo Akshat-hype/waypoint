@@ -8,6 +8,8 @@ import '../../../core/routes/route_names.dart';
 
 import '../../../providers/auth_provider.dart';
 
+import '../../../models/user_model.dart';
+
 class LoginScreen extends ConsumerStatefulWidget {
   const LoginScreen({super.key});
 
@@ -59,7 +61,22 @@ class _LoginScreenState
           ),
         );
 
-        context.go(RouteNames.home);
+        final token =
+    response["token"];
+
+final user =
+    response["user"];
+
+await ref
+    .read(authNotifierProvider.notifier)
+    .saveAuthData(
+      token: token,
+      user: UserModel.fromJson(user),
+    );
+
+if (!mounted) return;
+
+context.go(RouteNames.home);
 
       } else {
 
