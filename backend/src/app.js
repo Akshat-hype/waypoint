@@ -33,7 +33,11 @@ app.get("/", async (req, res) => {
   }
 });
 
+const tripRoutes = require(
+  "./routes/trip.routes"
+);
 
+app.use("/api/trips", tripRoutes);
 
 app.use("/api/auth", authRoutes);
 

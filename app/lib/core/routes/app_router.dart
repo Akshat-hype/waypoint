@@ -10,6 +10,8 @@ import '../../features/auth/screens/signup_screen.dart';
 
 import '../../features/home/screens/home_screen.dart';
 
+import '../../features/trips/screens/create_trip_screen.dart';
+
 import 'route_names.dart';
 
 final router = GoRouter(
@@ -67,6 +69,13 @@ final router = GoRouter(
       path: RouteNames.home,
       builder: (context, state) =>
           const HomeScreen(),
+    ),
+
+    GoRoute(
+      path: RouteNames.createTrip,
+
+      builder: (context, state) =>
+        const CreateTripScreen(),
     ),
   ],
 );
